@@ -1,0 +1,92 @@
+header {
+    border-radius: 20px;
+    background-color: yellow;
+    padding: 20px;
+    margin: 20px;
+	height: 170px;
+}
+
+.logojelveny {
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
+
+.kutyaesmacska {
+    float: right;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	width: 18%;
+	height: 100%;
+}
+
+.kutyaesmacska2 {
+    float: right;
+    display: block;
+	margin: 0px 30px 10px 10px;
+	width: 18%;
+	height: 100%;
+}
+
+div#wrapper {
+    margin: 10px;
+}
+
+aside {
+    display: table-cell;
+    vertical-align: top;
+}
+
+nav {
+    margin: 0px 10px 0px 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: #FF6600;
+}
+
+nav ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 1em 0;
+    list-style-type: none;
+    border-top: 0.25em dotted #b3b3b3;
+    border-bottom: 0.25em solid #b3b3b3;
+}
+
+nav ul li { display:inline }
+
+nav ul li.active {
+    border-right: 0px solid blue;
+}
+
+nav ul a {
+	 float:left;
+	padding: 0.25em 1em;
+	margin: 0.25em 0 0.25em 1em;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+div#content {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #99FFCC;
+    padding: 15px;
+}
+
+div#content img{
+    float: right;
+	margin: 0 0 15px 15px;
+    padding: 3px;
+    border: 3px solid blue;
+}
+
+footer {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #CC99FF;
+}
